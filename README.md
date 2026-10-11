@@ -38,14 +38,14 @@ A decoupled full-stack **MERN + FastAPI** application that classifies facial emo
 ---
 
 ## 🛠️ Quickstart Guide
-1. Prerequisites
+### 1. Prerequisites
 Node.js (v18+)
 
 Python (3.10+)
 
 A MongoDB Atlas cluster connection string
 
-2. Service 1: ML Inference Engine (ml-service)
+### 2. Service 1: ML Inference Engine (ml-service)
 ```Bash
 cd ml-service
 pip install -r requirements.txt
@@ -53,7 +53,7 @@ python -m uvicorn main:app --port 8000 --reload
 ```
 API docs available at http://127.0.0.1:8000/docs
 
-3. Service 2: Express Gateway API (backend)
+### 3. Service 2: Express Gateway API (backend)
 Navigate to the backend directory and install dependencies:
 
 ```Bash
@@ -73,7 +73,7 @@ Launch the gateway:
 node server.js
 ```
 
-4. Service 3: React Client (frontend)
+### 4. Service 3: React Client (frontend)
 
 ```Bash
 cd ../frontend
